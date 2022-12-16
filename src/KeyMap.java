@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.Objects;
 
 public class KeyMap {
-     private final String key;
+    private final String key;
     private Integer value;
     Map<String, Integer> map;
 

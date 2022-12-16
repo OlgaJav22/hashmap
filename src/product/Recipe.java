@@ -3,7 +3,8 @@ package product;
 import java.util.HashMap;
 import java.util.Objects;
 
-public class Recipe {private String name;
+public class Recipe {
+    private String name;
     private double totalSumPrice;
     private HashMap<Product, Integer> products1;
     double count;
@@ -15,7 +16,7 @@ public class Recipe {private String name;
         }
         setTotalSumPrice(0.0);
         for (Product product : products) {
-            setTotalSumPrice((getTotalSumPrice()+product.getPrice())*product.getCount());
+            setTotalSumPrice((getTotalSumPrice() + product.getPrice()) * product.getCount());
             this.products1.put(product, (int) product.getCount());
         }
         if (count == 0.0) {
@@ -38,7 +39,8 @@ public class Recipe {private String name;
     }
 
     public double getTotalSumPrice() {
-        return totalSumPrice;  }
+        return totalSumPrice;
+    }
 
     public void setTotalSumPrice(double totalSumPrice) {
         this.totalSumPrice = totalSumPrice;

@@ -11,6 +11,7 @@ public class Main {
 
         System.out.println("\nЗадание № 1/1");
         System.out.println("=======================");
+
         Guide guide = new Guide("Горлов Роман", "+792836415");
         Guide guide1 = new Guide("Петрова Варвара", "+792838719");
         Guide guide2 = new Guide("Иванова Олеся", "+792835569");

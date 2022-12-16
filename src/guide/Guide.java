@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Objects;
 
 public class Guide {
-    private String  fullName;
+    private String fullName;
     private String numberPhone;
 
     private HashMap<String, String> phone;
@@ -51,6 +51,6 @@ public class Guide {
 
     @Override
     public String toString() {
-        return  fullName + " " + numberPhone + " " + phone;
+        return fullName + " " + numberPhone + " " + phone;
     }
 }

@@ -56,7 +56,7 @@ public class Product {
     }
 
     public double getPrice() {
-       return price;
+        return price;
     }
 
     public double setPrice(double price) {
